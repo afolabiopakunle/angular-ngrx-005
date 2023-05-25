@@ -10,8 +10,8 @@ const _counterReducer = createReducer(
     })),
     on(decrement, state => (
       {...state, 
-      counter: state.counter - 1}
-    )),
+      counter: state.counter - 1
+    })),
     on(reset, state => ({
       ...state,
       counter: 0
