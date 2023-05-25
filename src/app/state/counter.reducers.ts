@@ -1,5 +1,4 @@
-import { on } from "@ngrx/store"
-import { createReducer } from "@ngrx/store/src/reducer_creator"
+import { on, createReducer } from "@ngrx/store"
 import { increment, decrement, reset } from "./counter.actions"
 import { initialState } from "./state"
 
