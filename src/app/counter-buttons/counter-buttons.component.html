@@ -1,7 +1,7 @@
 <div class="container pt-5 mx-auto w-100">
-  <button mat-raised-button color='primary'>Increase</button>
-  <button mat-raised-button color='warn'>Reset</button>
-  <button mat-raised-button color='accent'>Decrease</button>
+  <button (click)='onIncrement()' mat-raised-button color='primary'>Increase</button>
+  <button (click)='onReset()' mat-raised-button color='warn'>Reset</button>
+  <button (click)='onDecrement()' mat-raised-button color='accent'>Decrease</button>
 
 </div>
 
